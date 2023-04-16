@@ -416,9 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/odm/etc/init/vendor_engineermode.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor_engineermode.rc \
     vendor/realme/apollow/proprietary/odm/etc/media_codecs_ffmpeg.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_ffmpeg.xml \
     vendor/realme/apollow/proprietary/odm/etc/media_codecs_vendor_oplus.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_vendor_oplus.xml \
-    vendor/realme/apollow/proprietary/odm/etc/oplus.fstab:$(TARGET_COPY_OUT_ODM)/etc/oplus.fstab \
-    vendor/realme/apollow/proprietary/odm/etc/orms/orms_core_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_core_config.xml \
-    vendor/realme/apollow/proprietary/odm/etc/orms/orms_permission_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_permission_config.xml \
     vendor/realme/apollow/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fido.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fido.xml \
     vendor/realme/apollow/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/apollow/proprietary/odm/etc/permissions/vendor-oplus-hardware-charger.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-charger.xml \
@@ -1178,33 +1175,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/system_ext/etc/horae/horae_SM8150.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8150.conf \
     vendor/realme/apollow/proprietary/system_ext/etc/horae/horae_SM8250.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8250.conf \
     vendor/realme/apollow/proprietary/system_ext/etc/horae/horae_SM8350.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8350.conf \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/atlasservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/atlasservice.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/common_dcs.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/common_dcs.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/datafree.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/datafree.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/debuglog_common.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/debuglog_common.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/emdlogger1.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger1.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/emdlogger2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger2.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/emdlogger3.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger3.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/emdlogger5.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger5.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/giftserver.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/giftserver.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/hans.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hans.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/hapticscreencap.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hapticscreencap.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/horae.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/horae.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/init.oppo.adbd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.oppo.adbd.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/init.oppo.custom_logo.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.oppo.custom_logo.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/init.oppo.debug.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.oppo.debug.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/init.oppo.rootdir.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.oppo.rootdir.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/init.sys.oppo.connectivity.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.sys.oppo.connectivity.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/oiface.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/oiface.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/olog_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/olog_system.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/self-init-system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/self-init-system.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/self_init_hephaestus.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/self_init_hephaestus.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/self_init_kevent.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/self_init_kevent.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/self_init_theia.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/self_init_theia.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/system_engineermode.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/system_engineermode.rc \
-    vendor/realme/apollow/proprietary/system_ext/etc/init/xkit.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/xkit.rc \
     vendor/realme/apollow/proprietary/system_ext/etc/netcode_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/netcode_config.xml \
     vendor/realme/apollow/proprietary/system_ext/etc/netcode_version.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/netcode_version.xml \
     vendor/realme/apollow/proprietary/system_ext/etc/oiface/oiface.config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/oiface/oiface.config \
