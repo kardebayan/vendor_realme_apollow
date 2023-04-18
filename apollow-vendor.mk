@@ -2267,7 +2267,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/vendor/lib/gc02m1b_mipi_mono_apollob_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_apollob_tuning.so \
     vendor/realme/apollow/proprietary/vendor/lib/gc02m1b_mipi_mono_carr_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_carr_IdxMgr.so \
     vendor/realme/apollow/proprietary/vendor/lib/gc02m1b_mipi_mono_carr_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_carr_tuning.so \
-    vendor/realme/apollow/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -3372,7 +3371,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/vendor/lib/s5kgm1st_mipi_raw_apollof_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1st_mipi_raw_apollof_IdxMgr.so \
     vendor/realme/apollow/proprietary/vendor/lib/s5kgm1st_mipi_raw_apollof_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1st_mipi_raw_apollof_tuning.so \
     vendor/realme/apollow/proprietary/vendor/lib/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib/soter_attk_provision.so \
-    vendor/realme/apollow/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/realme/apollow/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/apollow/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/apollow/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
@@ -3422,7 +3420,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/vendor/lib64/gc02m1b_mipi_mono_apollob_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_apollob_tuning.so \
     vendor/realme/apollow/proprietary/vendor/lib64/gc02m1b_mipi_mono_carr_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_carr_IdxMgr.so \
     vendor/realme/apollow/proprietary/vendor/lib64/gc02m1b_mipi_mono_carr_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_carr_tuning.so \
-    vendor/realme/apollow/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/realme/apollow/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
@@ -4547,7 +4544,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/apollow/proprietary/vendor/lib64/s5kgm1st_mipi_raw_apollof_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1st_mipi_raw_apollof_IdxMgr.so \
     vendor/realme/apollow/proprietary/vendor/lib64/s5kgm1st_mipi_raw_apollof_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm1st_mipi_raw_apollof_tuning.so \
     vendor/realme/apollow/proprietary/vendor/lib64/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soter_attk_provision.so \
-    vendor/realme/apollow/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/realme/apollow/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/realme/apollow/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/apollow/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
@@ -4656,6 +4652,7 @@ PRODUCT_PACKAGES += \
     oppo-wifi-service \
     oppo_bluetooth_common_ext \
     oppo_mtk_bluetooth_ext \
+    android.hardware.gpu@1.0-service \
     android.hardware.wifi.hostapd \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_soter \
