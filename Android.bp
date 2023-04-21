@@ -98,48 +98,6 @@ dex_import {
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
 }
 
-dex_import {
-	name: "oplus-telephony-common-mtk-ext",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oplus-telephony-common-mtk-ext.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "oplus-telephony-common",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oplus-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "oppo-wifi-service-mtk-ext",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oppo-wifi-service-mtk-ext.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "oppo-wifi-service",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oppo-wifi-service.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "oppo_bluetooth_common_ext",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oppo_bluetooth_common_ext.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "oppo_mtk_bluetooth_ext",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/oppo_mtk_bluetooth_ext.jar"],
-	system_ext_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gpu@1.0-service",
 	owner: "realme",
